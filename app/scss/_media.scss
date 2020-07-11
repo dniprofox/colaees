@@ -53,10 +53,7 @@
 	top: 2px;
 	color: #a9ce81;
 }
-.flower__top-svg,
-.flower__bottom-svg {
-  display: none;
-}
+
 }
 @media (max-width: 980px) {
 	.header-slider__item {		
@@ -92,6 +89,10 @@
 	background-position: bottom;
 	background-size: cover;
   height: auto;
+}
+.flower__top,
+.flower__bottom {
+  display: none;
 }
 }
 

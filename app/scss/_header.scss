@@ -11,6 +11,7 @@
   background-size: cover;
   background-position: center; 
   overflow: hidden;
+  position: relative;
 }
 .page-section__wrapper {  
   background-repeat: no-repeat;   
@@ -286,14 +287,14 @@
   top: 18px;
   left: 7px;
 }
-.flower__top-svg {
+.flower__top {
   position: absolute;
-  top: -295px;
-  right: -437px;
+  top: 0px;
+  right: 0px;   
+  z-index: 5; 
 }
-.flower__bottom-svg {
+.flower__bottom {
   position: absolute;
-  bottom: -39%;
-  left: -24%;
-  z-index: 5;
+  left: 0;
+  bottom: 0;   
 }
